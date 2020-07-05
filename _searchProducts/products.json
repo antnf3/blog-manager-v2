@@ -1,1 +1,4 @@
-[{ "product": "맥북프로", "limit": 1 }]
+[
+  { "keyword": "맥북프로", "subId": "anderson", "limit": 2 },
+  { "keyword": "샤오미", "subId": "anderson", "limit": 3 }
+]
