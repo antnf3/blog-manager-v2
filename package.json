@@ -1,0 +1,22 @@
+{
+  "name": "blog-manager-v2",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "build": "parcel build src/index.ts --target node",
+    "start": "ts-node src/index.ts"
+  },
+  "devDependencies": {
+    "@types/dotenv": "^8.2.0",
+    "@types/node": "^14.0.14",
+    "dotenv": "^8.2.0",
+    "ts-node": "^8.10.2",
+    "typescript": "^3.9.6"
+  },
+  "dependencies": {
+    "@antnf3/coupangapi": "^0.0.92",
+    "@antnf3/file-utils": "^1.0.2",
+    "@antnf3/shortcuturl": "^0.0.2"
+  }
+}
