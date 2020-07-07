@@ -10,10 +10,10 @@
     axios "^0.19.2"
     moment "^2.27.0"
 
-"@antnf3/file-utils@^1.0.3":
-  version "1.0.3"
-  resolved "https://npm.pkg.github.com/download/@antnf3/file-utils/1.0.3/8618e2ff905a8dd45e6492d76ec89c17e447b77fb864bf215176c6691e18bfd5#bc2aaf14b1108b0ea950591295bd98a448f50792"
-  integrity sha512-ytFEsiRwpzc3A8OoJOEgO7N9tf1wbwvM3lQUb6oJUKiRWa9/jkC54unGHyaIHpeynDIO5tHap3RX50TOxlQJKA==
+"@antnf3/file-utils@^1.0.4":
+  version "1.0.4"
+  resolved "https://npm.pkg.github.com/download/@antnf3/file-utils/1.0.4/d2dbe36293c6ee19e8e7baf1ae163e49fe47c3f69f54f54a5e14b46354482bc8#80d714e7b1194c504dcd823d924d3bef3f5e7187"
+  integrity sha512-JghGicnFtMyFrswIQRZadrKXvj36c4Sxcu7AwTtRx6T7hkUVZpiJENwWNQtFxebLCHY+qhHriJ9G0xZoWZIVkQ==
   dependencies:
     axios "^0.19.2"
     uuid "^8.2.0"

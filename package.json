@@ -17,7 +17,7 @@
   },
   "dependencies": {
     "@antnf3/coupangapi": "^0.0.92",
-    "@antnf3/file-utils": "^1.0.3",
+    "@antnf3/file-utils": "^1.0.4",
     "@antnf3/shortcuturl": "^0.0.2",
     "cheerio": "^1.0.0-rc.3"
   }

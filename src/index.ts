@@ -48,7 +48,7 @@ async function main() {
         return { ...keyword, ...shortCutResult, ...detailInfo };
       });
       const arrCrawlerResult = await Promise.all(arrCrawlerDetail);
-      // 이미지 다운로드
+      // 이미지 다운로드( 여기 수정할것~~~~~~)
       const arrImgDown = arrCrawlerResult.map(async (crawlerData) => {
         const localPath = path.join(
           __dirname,
@@ -56,7 +56,7 @@ async function main() {
         );
         const { productImage, arrImg } = crawlerData;
         const arrImgUrl = [productImage, ...arrImg];
-        console.log(arrImgUrl);
+        // console.log(arrImgUrl);
         return await downloadMultiImage(arrImgUrl, localPath);
       });
 
